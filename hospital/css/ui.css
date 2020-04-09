@@ -1,0 +1,231 @@
+.hospital-menu { width: 70px;box-shadow: 2px 2px 8px 0px #999;display:none;}
+.hospital-menu a{ 
+	display: block; 
+	width:70px;
+	height:25px;
+	line-height:25px;
+	color:#999;
+	background: #fff;
+
+}
+.hospital-menu a:hover{background: #ddd;}
+
+
+/* banner-slider */
+.ui-slider{
+	width:544px;
+	height: 414px;
+	position: relative;
+	overflow: hidden;
+}
+
+.ui-banner-wrap{
+	width: 9999px;
+	height: 414px;
+	position: absolute;
+
+	top:0px;
+	left:0px;
+	transition:all 0.5s;
+}
+
+.ui-banner-wrap a{
+	width: 544px;
+	height:414px;
+	display: block;
+	float:left;
+}
+
+.ui-banner-btn{
+	width: 544px;
+	height:40px;
+	position: absolute;
+	top:50%;
+	margin-top:-20px;
+}
+.ui-banner-btn .item{
+	width: 40px;
+	height: 40px;
+	background: url("../img/ui-banner-btn.png");
+	position:absolute;
+	top:0px;
+}
+.ui-banner-btn .left{
+	position:absolute;
+	left:0px;
+}
+.ui-banner-btn .right{
+	right:0px;
+	background-position:-40px 0;
+}
+.ui-slider-process{
+	width:544px;
+	height:12px;
+	text-align:center;
+	position:absolute;
+	left:0px;
+	bottom:20px;
+}
+.dots{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	
+	background: url("../img/dots.png") 0 0 no-repeat;
+}
+.dots_focus,.dots:hover{
+	background-position: -23px 0px;
+}
+
+/* ui-menu-list */
+
+.ui-menu-list{
+	width: 190px;
+	height: 422px;
+	padding-top:36px;
+	position:relative;
+	
+
+}
+.ui-menu-item{
+	width: 177px;
+	height: 22px;
+	padding:8px 5px 9px 6px;
+	margin-left:2px;
+	
+}
+.ui-menu-item:hover{
+	background: #fff;
+}
+
+.ui-menu-item:hover .ui-menu-item-department{
+	color:#333;
+}
+.ui-menu-item:hover .ui-menu-item-disease{
+	color:#888;
+}
+.ui-menu-item:hover .ui-menu-item-department:before{
+	background-position:0px 0px;
+}
+.ui-menu-item:nth-child(2) .ui-menu-item-department:before{
+	background-position-y: -44px;
+}
+.ui-menu-item:nth-child(3) .ui-menu-item-department:before{
+	background-position-y: -66px;
+}
+.ui-menu-item:nth-child(4) .ui-menu-item-department:before{
+	background-position-y: -88px;
+}
+.ui-menu-item:nth-child(5) .ui-menu-item-department:before{
+	background-position-y: -110px;
+}
+.ui-menu-item-department:before{
+	content:" ";
+	display:block;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width: 22px;
+	height: 22px;
+	background:url("../img/icon-menu.jpg") -22px 0px no-repeat;
+	}
+.ui-menu-item-department{
+	display: block;
+	padding-left:30px;
+	color:#fff;
+	height:22;
+	line-height:22px;
+	font-size:14px;
+	float:left;
+	position:relative;
+}
+.ui-menu-item-disease{
+	height: 22px;
+	line-height:22px;
+	float:right;
+	padding-left:5px;
+	display: block;
+	color:#ddf;
+	font-size:12px;
+}
+.ui-menu-item-detail{
+	width: 500px;
+	height: 392px;
+	position:absolute;
+	top:36px;
+	left:190px;
+	padding:30px 10px 0px 30px ;
+	background: #fff;
+	z-index: 1;
+	box-shadow: 5px 3px 8px 1px rgba(0,0,0,.1);
+	display: none;
+}
+.ui-menu-item:hover .ui-menu-item-detail{
+	display:block;
+}
+.ui-menu-item-detail-group{
+	width:500px;
+	height: 144px;
+	padding-bottom:20px;
+}
+.ui-menu-item-detail-group-caption{
+	display: block;
+	width: 500px;
+	height: 34px;
+	font-size: 16px;
+	color:#666;
+}
+.ui-menu-item-detail-group-list a{
+	display: inline-block;
+	height: 23px;
+	line-height:23px;
+	font-size: 12px;
+	color:#868686;
+	margin-right:5px;
+}
+.ui-menu-item-detail-group-list a:after{
+	content:"|";
+	padding-left:8px;
+}
+.ui-menu-item-detail-group-list a:hover{
+	color:#565656;
+}
+
+.ui-backTop{
+	position:fixed;
+	right:2px;
+	bottom:2px;
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: rgba(99,99,99,0.9) url("../img/icon-go-up.png") no-repeat center;
+	z-index: 3;
+	
+}
+.ui-backTop:hover{
+	background:rgba(99,99,99,0.9);
+
+
+}
+.ui-backTop:hover:after{
+	display: block;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	content:"up";
+	font-size: 20px;
+	line-height:40px;
+	color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+

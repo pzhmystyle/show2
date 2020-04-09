@@ -1,0 +1,140 @@
+*{margin:0px;padding:0px;font-size: 13px;font-family:"微软雅黑";}
+
+.de-nav{
+	height: 36px;
+	background: #60bff2;
+}
+.de-nav .nav-ul li{float:left;}
+.de-nav .nav-ul li,.de-nav a{  
+	height:36px;
+	width: 100px;
+	color:#fff; 
+	line-height:36px;
+	text-align:center;
+	font-size:16px;
+}
+.de-nav .nav-ul li:hover{
+	
+}
+.department-top{
+	height:104px;
+	margin-top: 22px;
+}
+.department-top-img{
+	float:left;
+	width: 138px;
+	height: 30px;
+	background: url("../img/department-top.jpg") no-repeat;
+	padding-left:30px;
+	line-height:30px;
+	font-size:14px;
+	color:#fff;
+}
+.department-top .top-box{
+	width: 100%;
+	border:1px solid #dcdddd;
+	border-top:1px solid #49a6d8;
+	float:left;
+}
+.department-top .top-box .close{
+	display: none;
+}
+.ap-content{
+	height:100%;
+	width:100%;
+	margin-top:20px;
+}
+.box-left{
+	width: 840px;
+	height: 100%;
+}
+.box-right{
+	margin-top:45px;
+	width: 160px;
+	height: 100%;
+	text-align:center;
+}
+.box-right a{
+	text-decoration: underline;
+	color:#00f;
+}
+.ap-title{
+	width:96px;
+	height:35px;
+	display: inline-block;
+	line-height: 35px;
+	text-align:center;
+	padding-right:38px;
+	color:#777;
+}
+.department-left{
+	width: 211px;
+	height: 990px;
+	border:1px solid #dcdddd;
+	
+}
+.menu-item{
+	height:22px;
+	width:191px;
+	line-height:22px;
+	padding:5px 10px;
+}
+.menu-item-department{
+	float:left;
+	color:#000;
+}
+.menu-item-department:before{
+	width: 22px;
+	height: 22px;
+	content:"";
+	display: block;
+	float:left;
+	background: url("../img/icon-menu.jpg") no-repeat;
+}
+.menu-item:hover{
+	background-color: #1fa2f0;
+	color:#fff;
+}
+.menu-item:hover .menu-item-department:before{
+	background-position-x:-22px;
+}
+.menu-item:nth-child(2) .menu-item-department:before{
+	background-position-y:-22px;
+}
+.menu-item:nth-child(3) .menu-item-department:before{
+	background-position-y:-44px;
+}
+.sign{
+	float:right;
+
+}
+.department-right{
+	width: 765px;
+	height: 2998px;
+	border:1px solid #dcdddd;
+}
+
+.title{
+	color:#1fa2f0;
+	height: 37px;
+	width: 700px;
+	padding:0px 12px;
+	line-height:37px;
+	margin:20px 20px 0px 20px;
+	border-bottom:1px dashed #dcdddd;
+	font-size: 13px;
+}
+.block{
+	padding-left:50px;
+	padding-top:8px;
+}
+.block a{
+	display: inline-block;
+	padding-right: 38px;
+	color: #777777;
+	height:35px;
+	line-height:35px;
+	width: 96px;
+	text-align: center;
+}
+
